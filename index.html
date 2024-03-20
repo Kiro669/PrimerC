@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador web</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 class="TituloP">Encriptador de texto</h1>
+</header>
+<main>
+    <div class="Incriptador">
+        <ul>
+            <li class="Caja">
+                <textarea class="Texto" id="texto1" rows="6"></textarea>
+            </li>
+            <li class="Caja">
+                <textarea class="Texto" id="texto2" rows="6"></textarea>
+            </li>
+        </ul>
+        <div class="BTN-container">
+            <button class="BTN" onclick="encriptar()">Encriptar</button>
+            <button class="BTN" onclick="desencriptar()">Desencriptar</button>
+            <button class="BTN" onclick="convertir()">Convertir</button>
+            <button class="BTN" onclick="copiarTexto()">Copiar Texto</button>
+        </div>
+    </div>
+</main>
+<footer></footer>
+<script src="script.js"></script>
+</body>
+</html>
